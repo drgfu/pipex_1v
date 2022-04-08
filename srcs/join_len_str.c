@@ -6,7 +6,7 @@
 /*   By: kkais <kkais@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:36:18 by kkais             #+#    #+#             */
-/*   Updated: 2022/04/07 13:37:17 by kkais            ###   ########.fr       */
+/*   Updated: 2022/04/07 21:08:59 by kkais            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,14 +46,11 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	return (0);
 }
 
-
 char	*ft_create_str(int len)
 {
 	char	*str;
-	int		i;
 
 	str = NULL;
-	i = 0;
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (0);

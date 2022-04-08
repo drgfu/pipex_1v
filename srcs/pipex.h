@@ -6,7 +6,7 @@
 /*   By: kkais <kkais@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:28:23 by kkais             #+#    #+#             */
-/*   Updated: 2022/04/07 13:29:03 by kkais            ###   ########.fr       */
+/*   Updated: 2022/04/07 21:08:43 by kkais            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ typedef struct d_data
 	int			dap_out;
 	t_proc		pro;
 }	t_data;
- 
+
 char	*execv_fan(char **env, char *av);
 void	free_split(char **ptr);
 char	*get_path(char **env, char *av, t_data *data);
