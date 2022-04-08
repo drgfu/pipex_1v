@@ -6,7 +6,7 @@
 /*   By: kkais <kkais@student.42wolfsburg.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:36:18 by kkais             #+#    #+#             */
-/*   Updated: 2022/04/07 21:08:59 by kkais            ###   ########.fr       */
+/*   Updated: 2022/04/08 14:01:00 by kkais            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	x = (char) c;
 	str = (char *) s;
-	while (str[i] >= 0)
+	while (str[i])
 	{
 		if (str[i] == x)
 			return (&str[i]);
